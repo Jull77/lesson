@@ -4,14 +4,12 @@
 // 44, 5, 78 -> 78
 // 22, 3, 9 -> 22
 
-Console.WriteLine("Hello, World!");
-
 Console.WriteLine("Введите целое число1");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите целое число2");
 int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите целое число3");
-int num2 = Convert.ToInt32(Console.ReadLine());
+int num3 = Convert.ToInt32(Console.ReadLine());
 int max = num1;
 
 if (num1 > max) max = num1;
