@@ -8,8 +8,17 @@
 Console.WriteLine("Введите целое пятизначное число");
 int num = Convert.ToInt32(Console.ReadLine());
 
-if (num % num == 1) {
+int num1 = num % 10; 
+int num2 = num / 10000; 
+int num3 = num % 100 / 10; 
+int num4 = num / 1000 % 10; 
+
+
+if (num1 == num2 && num3 == num4)
+{
     Console.WriteLine("Число палиндром");
-} else {
-   Console.WriteLine("Число не является палиндромом");
+}
+else
+{
+    Console.WriteLine("Число не является палиндромом");
 };
